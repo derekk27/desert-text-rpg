@@ -1,0 +1,9 @@
+name,category,due,isCompleted,prio
+eat popeyes,,,False,True
+make dinner,home,,False,True
+sleep again,home,2024-08-30 00:00:00,False,True
+go home,home,2024-09-01 00:00:00,False,True
+walk,,,False,False
+dog,,,False,False
+be,,,True,False
+lol,,,False,False

@@ -1,0 +1,45 @@
+
+- [v]  user be able to add a task
+- [ ]  user be able to add an optional due date to task (calendar picker and time picker)
+- [v]  mark task as complete (move task to another list or tab/view)
+- [v]  delete a task
+- [ ]  edit a task
+- [ ]  total task completed
+    - [ ]  reset button
+- [ ]  total task to be done
+- [ ]  total task not completed and expired
+- [ ]  task that is set to a due date
+    - [ ]  needs a reminder (if not manually added reminder, ai to come up with a good time for reminder)
+    - [ ]  needs to alert user and remove from list once date has passed
+- [ ]  each task should have a category (home, groceries, work, school, etc)
+    - [ ]  ai to use keywords to assign category
+- [ ]  task habits: example user adds “go to gym” ai to automatically set for every day
+- [v]  task list should regroup by priority when in “main” view
+    - [ ]  dates prioritized
+    - [ ]  flagged items
+    - [ ]  use ai to figure out prioritization
+
+Bonus:
+
+- [ ]  add chatgpt/open ai integration
+    - [ ]  example task: “Bake a chocolate cake” - ask chatgpt the steps
+- [ ]  not on console, must have some kind of ui for user to interact with
+    - [ ]  simple html/css
+    - [ ]  incorporate python ui libraries
+- [ ]  database to store these tasks
+
+
+
+
+
+name,category,due,isCompleted,prio
+walk,,,False,False
+dog,,,False,False
+may,,,True,False
+be,,,False,False
+lol,,,False,False
+eat chipotle,,,False,False
+eat popeyes,,,False,True
+make dinner,home,,False,True
+sleep again,home,2024-08-30 00:00:00,False,True
+go home,home,2024-09-01 00:00:00,False,True
